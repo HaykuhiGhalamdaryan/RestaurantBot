@@ -1,0 +1,895 @@
+{
+    "meat": 
+    {
+        "Pork": [
+            {
+                "name": "Pork Loin",
+                "stock": 50,
+                "unit": "kg",
+                "price": 5200
+            },
+            {
+                "name": "Pork Belly",
+                "stock": 30,
+                "unit": "kg",
+                "price": 4400
+            }
+        ],
+        "Goat Meat": [
+            {
+                "name": "Goat Shoulder",
+                "stock": 20,
+                "unit": "kg",
+                "price": 6400
+            }
+        ],
+        "Veal": [
+            {
+                "name": "Veal Chop",
+                "stock": 25,
+                "unit": "kg",
+                "price": 8000
+            }
+        ],
+        "Beef": [
+            {
+                "name": "Beef Ribeye",
+                "stock": 40,
+                "unit": "kg",
+                "price": 10000
+            }
+        ],
+        "Mutton": [
+            {
+                "name": "Mutton Leg",
+                "stock": 15,
+                "unit": "kg",
+                "price": 7500
+            }
+        ],
+        "Chicken": [
+            {
+                "name": "Chicken Breast",
+                "stock": 60,
+                "unit": "kg",
+                "price": 3600
+            }
+        ],
+        "Turkey": [
+            {
+                "name": "Turkey Thigh",
+                "stock": 35,
+                "unit": "kg",
+                "price": 4800
+            }
+        ]
+    },
+
+    "pastas": 
+    {
+        "Spaghetti": [
+            {
+                "name": "Spaghetti Classic",
+                "stock": 100,
+                "unit": "kg",
+                "price": 1200
+            },  
+            {   
+                "name": "Whole Wheat Spaghetti",
+                "stock": 80,
+                "unit": "kg",
+                "price": 1500
+            }
+        ],  
+        "Penne": [
+            {
+                "name": "Penne Rigate",
+                "stock": 90,
+                "unit": "kg",
+                "price": 1300
+            }   
+        ],  
+        "Fusilli": [
+            {
+                "name": "Fusilli",
+                "stock": 75,
+                "unit": "kg",
+                "price": 1400
+            }
+        ],   
+        "Tagliatelle": [
+            {
+                "name": "Tagliatelle",
+                "stock": 45,
+                "unit": "kg",
+                "price": 1800
+            }
+        ],
+        "Macaroni": [
+            {
+                "name": "Macaroni Classic",
+                "stock": 70,
+                "unit": "kg",
+                "price": 1200
+            }
+        ],
+        "Ravioli": [
+            {
+                "name": "Ravioli with Spinach",
+                "stock": 40,
+                "unit": "kg",
+                "price": 2200
+            }
+        ]
+    },
+
+    "vegetables": 
+    {
+        "Tomatoes": [
+            {
+                "name": "Cherry Tomatoes",
+                "stock": 100,
+                "unit": "kg",
+                "price": 600
+            },  
+            {   
+                "name": "Roma Tomatoes",
+                "stock": 80,
+                "unit": "kg",
+                "price": 500
+            }
+            ],
+        "Carrots": [
+            {
+                "name": "Organic Carrots",
+                "stock": 120,
+                "unit": "kg",
+                "price": 450
+            }
+            ],
+        "Potatoes": [
+            {
+                "name": "Sweet Potatoes",
+                "stock": 70,
+                "unit": "kg",
+                "price": 700
+            },
+            {
+                "name": "Russet Potatoes",
+                "stock": 90,
+                "unit": "kg",
+                "price": 350
+            }
+            ],
+        "Onions": [
+            {
+                "name": "Red Onions",
+                "stock": 60,
+                "unit": "kg",
+                "price": 300
+            },
+            {
+                "name": "Yellow Onions",
+                "stock": 80,
+                "unit": "kg",
+                "price": 250
+            }
+        ],
+        "Peppers": [
+            {
+                "name": "Bell Peppers",
+                "stock": 100,
+                "unit": "kg",
+                "price": 800
+            },
+            {
+                "name": "Chili Peppers",
+                "stock": 50,
+                "unit": "kg",
+                "price": 1200
+            }
+        ],
+        "Cucumbers": [
+            {
+                "name": "Cucumbers",
+                "stock": 150,
+                "unit": "kg",
+                "price": 400
+            }
+        ],
+        "Mushroom": [
+            {
+                "name": "Mushroom",
+                "stock": 150,
+                "unit": "kg",
+                "price": 1000
+            }
+        ]
+    },
+    
+    "fruits": 
+    {
+        "Apples": [
+            {
+                "name": "Red Apples",
+                "stock": 200,
+                "unit": "kg",
+                "price": 500
+            },
+            {
+                "name": "Green Apples",
+                "stock": 180,
+                "unit": "kg",
+                "price": 550
+            }
+        ],
+        "Bananas": [
+            {
+                "name": "Bananas",
+                "stock": 250,
+                "unit": "kg",
+                "price": 600
+            }
+        ],
+        "Oranges": [
+            {
+                "name": "Navel Oranges",
+                "stock": 150,
+                "unit": "kg",
+                "price": 650
+            }
+        ],
+        "Grapes": [
+            {
+                "name": "Red Grapes",
+                "stock": 100,
+                "unit": "kg",
+                "price": 900
+            },
+            {
+                "name": "Green Grapes",
+                "stock": 110,
+                "unit": "kg",
+                "price": 850
+            }
+        ],
+        "Peaches": [
+            {
+                "name": "Peaches",
+                "stock": 120,
+                "unit": "kg",
+                "price": 750
+            }
+        ],
+        "Strawberries": [
+            {
+                "name": "Strawberries",
+                "stock": 90,
+                "unit": "kg",
+                "price": 1300
+            }
+        ]
+    },
+    
+    "dairy": 
+    {
+        "Milk": [
+            {
+                "name": "Whole Milk",
+                "stock": 100,
+                "unit": "liter",
+                "price": 400
+            },
+            {
+                "name": "Skim Milk",
+                "stock": 80,
+                "unit": "liter",
+                "price": 350
+            }
+        ],
+        "Cheese": [
+            {
+                "name": "Cheddar Cheese",
+                "stock": 50,
+                "unit": "kg",
+                "price": 5000
+            },
+            {
+                "name": "Mozzarella Cheese",
+                "stock": 60,
+                "unit": "kg",
+                "price": 4500
+            }
+        ],
+        "Yogurt": [
+            {
+                "name": "Greek Yogurt",
+                "stock": 70,
+                "unit": "kg",
+                "price": 2200
+            },
+            {
+                "name": "Plain Yogurt",
+                "stock": 80,
+                "unit": "kg",
+                "price": 1800
+            }
+        ],
+        "Butter": [
+            {
+                "name": "Salted Butter",
+                "stock": 40,
+                "unit": "kg",
+                "price": 3800
+            },
+            {
+                "name": "Unsalted Butter",
+                "stock": 50,
+                "unit": "kg",
+                "price": 3600
+            }
+        ],
+        "Cream": [
+            {
+                "name": "Whipping Cream",
+                "stock": 30,
+                "unit": "liter",
+                "price": 1200
+            },
+            {
+                "name": "Heavy Cream",
+                "stock": 25,
+                "unit": "liter",
+                "price": 1500
+            }
+        ]
+    },
+    
+    "nuts": 
+    {
+        "Almonds": [
+            {
+                "name": "Raw Almonds",
+                "stock": 70,
+                "unit": "kg",
+                "price": 8000
+            },
+            {
+                "name": "Roasted Almonds",
+                "stock": 60,
+                "unit": "kg",
+                "price": 8500
+            }
+        ],
+        "Walnuts": [
+            {
+                "name": "Shelled Walnuts",
+                "stock": 90,
+                "unit": "kg",
+                "price": 7500
+            }
+        ],
+        "Cashews": [
+            {
+                "name": "Raw Cashews",
+                "stock": 80,
+                "unit": "kg",
+                "price": 9000
+            },
+            {
+                "name": "Roasted Cashews",
+                "stock": 50,
+                "unit": "kg",
+                "price": 9500
+            }
+        ],
+        "Hazelnuts": [
+            {
+                "name": "Raw Hazelnuts",
+                "stock": 40,
+                "unit": "kg",
+                "price": 8800
+            },
+            {
+                "name": "Roasted Hazelnuts",
+                "stock": 35,
+                "unit": "kg",
+                "price": 9300
+            }
+        ],
+        "Pistachios": [
+            {
+                "name": "Raw Pistachios",
+                "stock": 55,
+                "unit": "kg",
+                "price": 10000
+            },
+            {
+                "name": "Roasted Pistachios",
+                "stock": 45,
+                "unit": "kg",
+                "price": 10500
+            }
+        ]
+    },
+    
+    "croup": 
+    {
+        "Lentils": [
+            {
+                "name": "Green Lentils",
+                "stock": 80,
+                "unit": "kg",
+                "price": 1200
+            },
+            {
+                "name": "Red Lentils",
+                "stock": 90,
+                "unit": "kg",
+                "price": 1300
+            }
+        ],
+        "Peas": [
+            {
+                "name": "Green Peas",
+                "stock": 120,
+                "unit": "kg",
+                "price": 1100
+            },
+            {
+                "name": "Yellow Split Peas",
+                "stock": 60,
+                "unit": "kg",
+                "price": 1000
+            }
+        ],
+        "Chickpeas": [
+            {
+                "name": "Dried Chickpeas",
+                "stock": 100,
+                "unit": "kg",
+                "price": 1500
+            }
+        ],
+        "Rice": [
+            {
+                "name": "Basmati Rice",
+                "stock": 100,
+                "unit": "kg",
+                "price": 3000
+            },
+            {
+                "name": "Brown Rice",
+                "stock": 80,
+                "unit": "kg",
+                "price": 2800
+            }
+        ],
+        "Buckwheat": [
+            {
+                "name": "Whole Buckwheat",
+                "stock": 60,
+                "unit": "kg",
+                "price": 2500
+            }
+        ],
+        "Oats": [
+            {
+                "name": "Rolled Oats",
+                "stock": 70,
+                "unit": "kg",
+                "price": 2000
+            }
+        ],
+        "Beans": [
+            {
+                "name": "Kidney Beans",
+                "stock": 110,
+                "unit": "kg",
+                "price": 1600
+            },
+            {
+                "name": "Black Beans",
+                "stock": 70,
+                "unit": "kg",
+                "price": 1400
+            }
+        ],
+        "Semolina": [
+            {
+                "name": "Fine Wheat Semolina",
+                "stock": 120,
+                "unit": "kg",
+                "price": 1800
+            },
+            {
+                "name": "Coarse Wheat Semolina",
+                "stock": 100,
+                "unit": "kg",
+                "price": 1700
+            },
+            {
+                "name": "Durum Wheat Semolina",
+                "stock": 80,
+                "unit": "kg",
+                "price": 2000
+            }
+        ]
+    },
+    
+    "eggs": 
+    {
+        "Chicken Eggs": [
+            {
+                "name": "White Chicken Eggs",
+                "stock": 200,
+                "unit": "dozen",
+                "price": 1200
+            },
+            {
+                "name": "Brown Chicken Eggs",
+                "stock": 150,
+                "unit": "dozen",
+                "price": 1300
+            }
+        ],
+        "Quail Eggs": [
+            {
+                "name": "Quail Eggs",
+                "stock": 100,
+                "unit": "dozen",
+                "price": 2500
+            }
+        ],
+        "Duck Eggs": [
+            {
+                "name": "Duck Eggs",
+                "stock": 80,
+                "unit": "dozen",
+                "price": 2000
+            }
+        ],
+        "Turkey Eggs": [
+            {
+                "name": "Turkey Eggs",
+                "stock": 60,
+                "unit": "dozen",
+                "price": 2200
+            }
+        ]
+    },
+    
+    "cans": 
+    {
+        "Canned Vegetables": [
+            {
+                "name": "Canned Green Peas",
+                "stock": 150,
+                "unit": "tin",
+                "price": 600
+            },
+            {
+                "name": "Canned Corn",
+                "stock": 180,
+                "unit": "tin",
+                "price": 700
+            }
+        ],
+        "Canned Fish": [
+            {
+                "name": "Canned Tuna",
+                "stock": 120,
+                "unit": "tin",
+                "price": 1500
+            },
+            {
+                "name": "Canned Sardines",
+                "stock": 100,
+                "unit": "tin",
+                "price": 1300
+            }
+        ],
+        "Canned Meat": [
+            {
+                "name": "Canned Beef",
+                "stock": 90,
+                "unit": "tin",
+                "price": 2000
+            },
+            {
+                "name": "Canned Chicken",
+                "stock": 110,
+                "unit": "tin",
+                "price": 1800
+            }
+        ],
+        "Canned Fruits": [
+            {
+                "name": "Canned Peaches",
+                "stock": 140,
+                "unit": "tin",
+                "price": 900
+            },
+            {
+                "name": "Canned Pineapple",
+                "stock": 130,
+                "unit": "tin",
+                "price": 1000
+            }
+        ]
+    },
+    
+    "spices": 
+    {
+        "Pepper": [
+            {
+                "name": "Black Pepper",
+                "stock": 50,
+                "unit": "kg",
+                "price": 8000
+            },
+            {
+                "name": "White Pepper",
+                "stock": 40,
+                "unit": "kg",
+                "price": 8500
+            }
+        ],
+        "Paprika": [
+            {
+                "name": "Sweet Paprika",
+                "stock": 70,
+                "unit": "kg",
+                "price": 6000
+            },
+            {
+                "name": "Smoked Paprika",
+                "stock": 60,
+                "unit": "kg",
+                "price": 7000
+            }
+        ],
+        "Cinnamon": [
+            {
+                "name": "Ground Cinnamon",
+                "stock": 90,
+                "unit": "kg",
+                "price": 7500
+            },
+            {
+                "name": "Cinnamon Sticks",
+                "stock": 80,
+                "unit": "kg",
+                "price": 7800
+            }
+        ],
+        "Turmeric": [
+            {
+                "name": "Ground Turmeric",
+                "stock": 65,
+                "unit": "kg",
+                "price": 7000
+            }
+        ],
+        "Cumin": [
+            {
+                "name": "Ground Cumin",
+                "stock": 55,
+                "unit": "kg",
+                "price": 6500
+            },
+            {
+                "name": "Whole Cumin Seeds",
+                "stock": 45,
+                "unit": "kg",
+                "price": 6800
+            }
+        ],
+        "Salt": [
+            {
+                "name": "Table Salt",
+                "stock": 100,
+                "unit": "kg",
+                "price": 300
+            },
+            {
+                "name": "Sea Salt",
+                "stock": 80,
+                "unit": "kg",
+                "price": 500
+            }
+        ]
+    },
+    
+    "seafood": 
+    {
+        "Fish": [
+            {
+                "name": "Salmon",
+                "stock": 100,
+                "unit": "kg",
+                "price": 7000
+            },
+            {
+                "name": "Tuna",
+                "stock": 80,
+                "unit": "kg",
+                "price": 6500
+            },
+            {
+                "name": "Cod",
+                "stock": 90,
+                "unit": "kg",
+                "price": 5000
+            }
+        ],
+        "Shellfish": [
+            {
+                "name": "Shrimp",
+                "stock": 120,
+                "unit": "kg",
+                "price": 8000
+            },
+            {
+                "name": "Mussels",
+                "stock": 100,
+                "unit": "kg",
+                "price": 4000
+            },
+            {
+                "name": "Clams",
+                "stock": 90,
+                "unit": "kg",
+                "price": 4500
+            }
+        ],
+        "Crustaceans": [
+            {
+                "name": "Crab",
+                "stock": 70,
+                "unit": "kg",
+                "price": 12000
+            },
+            {
+                "name": "Lobster",
+                "stock": 50,
+                "unit": "kg",
+                "price": 18000
+            }
+        ]
+    },
+    
+    "dough": 
+    {
+        "Bread Dough": [
+            {
+                "name": "White Bread Dough",
+                "stock": 100,
+                "unit": "kg",
+                "price": 2500
+            },
+            {
+                "name": "Whole Wheat Bread Dough",
+                "stock": 80,
+                "unit": "kg",
+                "price": 3000
+            }
+        ],
+        "Pizza Dough": [
+            {
+                "name": "Thin Crust Pizza Dough",
+                "stock": 60,
+                "unit": "kg",
+                "price": 3500
+            },
+            {
+                "name": "Thick Crust Pizza Dough",
+                "stock": 50,
+                "unit": "kg",
+                "price": 4000
+            }
+        ],
+        "Pastry Dough": [
+            {
+                "name": "Puff Pastry Dough",
+                "stock": 40,
+                "unit": "kg",
+                "price": 4500
+            },
+            {
+                "name": "Shortcrust Pastry Dough",
+                "stock": 30,
+                "unit": "kg",
+                "price": 4000
+            }
+        ],
+        "Cookie Dough": [
+            {
+                "name": "Chocolate Chip Cookie Dough",
+                "stock": 70,
+                "unit": "kg",
+                "price": 3500
+            },
+            {
+                "name": "Oatmeal Raisin Cookie Dough",
+                "stock": 60,
+                "unit": "kg",
+                "price": 3200
+            }
+        ]
+    },
+    
+    "sauces": 
+    {
+        "Tomato Sauce": [
+            {
+                "name": "Marinara Sauce",
+                "stock": 120,
+                "unit": "liter",
+                "price": 1800
+            },
+            {
+                "name": "Spaghetti Sauce",
+                "stock": 100,
+                "unit": "liter",
+                "price": 2000
+            }
+        ],
+        "Barbecue Sauce": [
+            {
+                "name": "Sweet Barbecue Sauce",
+                "stock": 80,
+                "unit": "liter",
+                "price": 2200
+            },
+            {
+                "name": "Smoky Barbecue Sauce",
+                "stock": 70,
+                "unit": "liter",
+                "price": 2400
+            }
+        ],
+        "Soy Sauce": [
+            {
+                "name": "Regular Soy Sauce",
+                "stock": 90,
+                "unit": "liter",
+                "price": 1500
+            },
+            {
+                "name": "Low Sodium Soy Sauce",
+                "stock": 85,
+                "unit": "liter",
+                "price": 1600
+            }
+        ],
+        "Hot Sauce": [
+            {
+                "name": "Sriracha Sauce",
+                "stock": 60,
+                "unit": "liter",
+                "price": 2500
+            },
+            {
+                "name": "Tabasco Sauce",
+                "stock": 50,
+                "unit": "liter",
+                "price": 2800
+            }
+        ],
+        "Cream Sauce": [
+            {
+                "name": "Alfredo Sauce",
+                "stock": 70,
+                "unit": "liter",
+                "price": 2600
+            },
+            {
+                "name": "Carbonara Sauce",
+                "stock": 60,
+                "unit": "liter",
+                "price": 2700
+            }
+        ]
+    }
+}
